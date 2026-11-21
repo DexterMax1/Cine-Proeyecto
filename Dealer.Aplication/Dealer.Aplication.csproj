@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<!-- Define la versión de .NET utilizada (10.0) -->
+		<TargetFramework>net10.0</TargetFramework>
+		<!-- Habilita el uso implícito de namespaces comunes -->
+		<ImplicitUsings>enable</ImplicitUsings>
+		<!-- Activa las anotaciones de nulabilidad en C# -->
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Referencias a otros proyectos de la solución -->
+		<ProjectReference Include="..\Dealer.Domain\Dealer.Domain.csproj" />
+		<ProjectReference Include="..\Dealer.Shared\Dealer.Shared.csproj" />
+	</ItemGroup>
+
+</Project>
